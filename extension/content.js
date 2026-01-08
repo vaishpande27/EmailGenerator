@@ -72,7 +72,7 @@ function injectButton() {
                     'Content-Type' : 'application/json',
                 },
                 body : JSON.stringify({
-                    emailContent : emailContent,
+                    content : emailContent,
                     tone : "professional"
                 })
             });
@@ -92,7 +92,7 @@ function injectButton() {
             }
 
         } catch (err) {
-            console.error(err);
+            // console.error(err);
             alert("failed to genrate reply");
         }finally{
             btn.innerHTML = 'AI Reply';
