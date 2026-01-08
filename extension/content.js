@@ -1,0 +1,1 @@
+console.log("Email writer extension - content script loaded")
