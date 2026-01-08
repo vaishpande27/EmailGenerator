@@ -8,6 +8,7 @@ public class EmailWriterApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmailWriterApplication.class, args);
+		System.out.println("Email-Assistant!");
 	}
 
 }
